@@ -9,6 +9,8 @@ on:
       - '.*ignore'
       - '.idea/**'
       - '.github/**'
+  workflow_dispatch:
+
 
 jobs:
   build-n-publish:
