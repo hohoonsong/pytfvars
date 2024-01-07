@@ -12,7 +12,7 @@ You can do write result string to tfvars file to trigger terraform plan.
 
 ## Document
 
-https://hohoonsong.github.io/pytfvars/
+https://hohoonsong.github.io/index.html
 
 ## Install
 
