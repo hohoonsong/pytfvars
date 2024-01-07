@@ -1,4 +1,4 @@
-# Pyjosa
+# Pytfvars
 
 ![PyPI](https://img.shields.io/pypi/v/pytfvars?style=plastic)  ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytfvars)
 ![GitHub](https://img.shields.io/github/license/hohoonsong/pytfvars) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/hohoonsong/pytfvars/Publish%20Python%20%F0%9F%90%8D%20distributions%20%F0%9F%93%A6%20to%20PyPI/release)
