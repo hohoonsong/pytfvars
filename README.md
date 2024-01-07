@@ -53,6 +53,9 @@ I found some packages which load values from hcl file but none of this which do 
 ### v1.0.0
 initial release
 
+### v1.0.1
+fix README
+
 ## Contribute
 
 

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pytfvars",
-    version="1.0.0",
+    version="1.0.1",
     author="hohoonsong",
     author_email="hohoonsong@gmail.com",
     description="convert python dictionary to tfvars(hcl lang) formatted string",
