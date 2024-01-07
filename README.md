@@ -28,21 +28,38 @@ OR
 import hcl2
 from pytfvars import tfvars
 
+# use hcl2 to load tfvars file(or string)
 def load(file_path: str):
     with open(file_path, 'r') as fp:
         dict_tf_values = hcl2.load(fp)
         
     return dict_tf_values
 
+# convert dictionary to tfvars string
 def convert(dict_tf_values: dict):
     return tfvars.convert(dict_tf_values)
 
-
+# do some business logic
 def do_something(dict_tf_values: dict):
     del dict_tf_values["key_to_delete"]
     dict_tf_values["add_something"] = "do_something"
     return dict_tf_values
 
+
+if __name__ == '__main__':
+    file_path = 'YOUR_FILE_PATH/sample.tfvars'
+    
+    # read file
+    contents = load(file_path)
+    # business logic
+    contents_mod = do_something(contents)
+    # convert
+    contents_mod_str = convert(contents_mod)
+    
+    # write to tfvars file
+    w_file_path = 'YOUR_FILE_PATH_TO/result.tfvars'
+    with open(w_file_path, 'w') as fp:
+        fp.write(contents_mod_str)
 ```
 ## Core Concept
 I wanted to make a web page which get input form and generate terraform resource with the values.  
