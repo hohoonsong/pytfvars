@@ -73,6 +73,9 @@ initial release
 ### v1.0.1
 fix README
 
+### v1.0.2
+add indent to result string
+
 ## Contribute
 
 
