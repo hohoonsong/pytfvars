@@ -76,6 +76,9 @@ fix README
 ### v1.0.2
 add indent to result string
 
+### v1.0.3
+remove unnecessary print ([issue#1. Lets remove this unnecessary print](https://github.com/hohoonsong/pytfvars/issues/1))
+
 ## Contribute
 
 
