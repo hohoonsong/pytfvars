@@ -106,5 +106,4 @@ def convert(obj: dict):
             contents = __convert_str_kv(contents, k, v, indent_no)
 
     contents = __remove_empty_lines(contents)
-    print(contents)
     return contents
